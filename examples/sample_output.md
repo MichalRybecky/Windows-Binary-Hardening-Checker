@@ -1,0 +1,7 @@
+| File                                | ASLR | DEP | CFG | SafeSEH | Signed |
+|--------------------------------------|------|-----|-----|---------|--------|
+| C:\Windows\System32\notepad.exe      | Yes  | Yes | No  | N/A     | Yes    |
+| C:\Windows\System32\mspaint.exe      | Yes  | Yes | No  | N/A     | Yes    |
+| C:\Windows\System32\someold32bit.dll | No   | No  | No  | Yes     | No     |
+| C:\Tools\test_unsigned.exe           | Yes  | No  | No  | No      | No     |
+
